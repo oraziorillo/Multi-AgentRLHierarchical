@@ -1,0 +1,9 @@
+numpy==1.16.5
+scipy==1.4.1
+opencv-python
+dm-tree
+ray
+lz4
+gym
+ray[tune]
+ray[default]

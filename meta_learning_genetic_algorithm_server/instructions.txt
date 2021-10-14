@@ -1,0 +1,3 @@
+conda create --name test --file spec-file.txt
+conda activate test
+pip install -r requirements
