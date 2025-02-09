@@ -1,7 +1,5 @@
 # Multi-agent Meta Reinforcement Learning via Hierarchical Interactions
 ## Description
-This is the semester project I did during my MSc in Computer Science at EPFL. 
-
 Reinforcement learning has proven to be very successful in solving various learning problems, that go from the domain of games to that of robotics. However, the dominant strategy in many practical applications consists in adapting the model to the specific task to be performed.
 
 This project aims to introduce a framework in which agents are able to adapt by themselves to the task. While trying to understand which is the most effective way of doing it, we will explore new possibilities in multi-agent reinforcement learning, in order to find a configuration that can enable an easy adaptation of our model to any task that needs to be solved. By taking a cue from the meta-learning philosophy, we want to train our agents not to perform the task, but to learn how to learn to perform the task. Ultimately, our approach will consist in combining hierarchical reinforcement learning and meta-learning, by meta-training an agent (the ‘manager’) to learn how to communicate a reward function in such a way that the (potentially many) other agents (the ‘workers’) are guided by the former to learn how to execute a task.
